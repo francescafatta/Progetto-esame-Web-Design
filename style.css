@@ -7,3 +7,54 @@ h1 {
 p {
   color: black;
 }
+
+nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  nav {
+    display: block;
+  }
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+.menu-toggle {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: inline-block;
+  }
+  nav li {
+    display: block;
+    margin: 0;
+  }
+}
