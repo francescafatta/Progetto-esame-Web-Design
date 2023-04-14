@@ -1,11 +1,42 @@
-body {
+nav {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
+  padding: 5px;
+	overflow: hidden;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+		}
+
+.logo img {
+    height: 80px;
+    }
+ 
+nav a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+	padding: 14px 16px;
 }
 
-h1 {
-  color: black;
+h1, h2 {
+  color: #502816;
+  }
+
+.footer {
+   background-color: #502816;
+   color: white;
+   text-align: center;
+   padding: 10px;
 }
 
-p {
-  color: black;
+table {
+  border-spacing: 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
