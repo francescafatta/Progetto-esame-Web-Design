@@ -1,19 +1,17 @@
 # Progetto esame Web Design
 **SCOPO DEL CORSO**
 
-Il corso, che prende ispirazione dagli esempi proposti da w3schools arricchendoli con una serie di slide in italiano, si pone come obiettivo l'acquisizione da parte dello studente delle conoscenze base per poter padroneggiare linguaggi come HTML5, CSS3 e JavaScript. 
+Il corso, che prende ispirazione dagli esempi proposti da w3schools arricchendoli con una serie di slide in italiano, si pone come obiettivo l'acquisizione da parte dello studente delle conoscenze base per poter padroneggiare linguaggi come HTML, CSS e JavaScript.  
 
-Durante il corso è stato impiegato inoltre CodePen, un editor di codice online, utile per sviluppatori di qualsiasi abilità e soprattutto per chi sta imparando a programmare: consente infatti di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
+_HTML_ (Hyper Text Markup Language), è il linguaggio standard per la creazione di pagine web. Descrive la struttura delle pagine, identifica una serie di elementi strutturati e la sua interpretazione necessita di un browser.
 
-**HTML-Hyper Text Markup Language**
+Durante il corso è stato impiegato CodePen, un editor di codice online, utile per gli sviluppatori poichè consente di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
 
-Linguaggio standard per la creazione di pagine web
+Altri strumenti impiegati sono poi stati Github e Netlify: il primo con lo scopo di salvare, verificare e versionare il nostro progetto; il secondo con lo scopo di pubblicare online i lavori.
 
-Descrive la struttura delle pagine
+Per l'esame è stata richiesta la progettazione di una monopagina relativa al sito di un'azienda da noi scelta.
 
-Identifica una serie di elementi strutturati
 
-La sua interpretazione necessita di un browser
 
 **CSS-Cascading Style Sheets**
 
