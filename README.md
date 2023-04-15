@@ -19,7 +19,7 @@ La sua interpretazione necessita di un browser
 
 In italiano: fogli di stile a cascata
 
-Linguaggio usato per definire la formattazione di documenti
+Linguaggio usato per definire la formattazione di pagine web
 
 Descrive lo stile degli elementi di pagina
 
