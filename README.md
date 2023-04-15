@@ -7,11 +7,17 @@ _HTML_ (Hyper Text Markup Language), è il linguaggio standard per la creazione 
 
 _CSS_ (Cascading Style Sheets), è l'acronimo di "fogli di stile a cascata". Definisce la formattazione di pagine web, descrive lo stile degli elementi di pagina e la sua interpretazione necessita di un browser.
 
+_JavaScript_, linguaggio di programmazione multi paradigma orientato agli eventi, comunemente usato nella programmazione web lato client (esteso poi anche al lato server) per la creazione, in siti web e applicazioni web, di effetti dinamici interattivi tramite funzioni di script invocate da eventi innescati a loro volta in vari modi dall'utente sulla pagina web in uso (mouse, tastiera, caricamento della pagina...). 
+
+**STRUMENTI USATI**
+
 Durante il corso è stato impiegato CodePen, un editor di codice online, utile per gli sviluppatori poichè consente di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
 
 Altri strumenti impiegati sono poi stati Github e Netlify: il primo con lo scopo di salvare, verificare e versionare il nostro progetto; il secondo con lo scopo di pubblicare online i lavori.
 
-Per l'esame è stata richiesta la progettazione di una monopagina relativa al sito di un'azienda da noi scelta.
+**PROGETTO ESAME**
+
+Per l'esame è stata richiesta la creazione di una monopagina relativa al sito di un'azienda da noi scelta.
 
 
 
