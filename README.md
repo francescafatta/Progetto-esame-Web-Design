@@ -17,8 +17,6 @@ Altri strumenti impiegati sono poi stati _Github_ e _Netlify_: il primo con lo s
 
 **PROGETTO ESAME**
 
-Per l'esame è stata richiesta la creazione di una monopagina relativa ad un'azienda da noi liberamente scelta: in questo caso, si è fatto riferimento alla pasticceria Brusa, sorta nella piccola realtà biellese.
+Per l'esame è stata richiesta la creazione di una monopagina relativa ad un'azienda da noi liberamente scelta: in questo caso, si è fatto riferimento alla pasticceria Brusa, situata nella piccola realtà biellese.
 
-
-
-[****stellar-taiyaki-255f2b****](https://stellar-taiyaki-255f2b.netlify.app/)
+Di seguito il link per visualizzare la pagina: [****stellar-taiyaki-255f2b****](https://stellar-taiyaki-255f2b.netlify.app/)
