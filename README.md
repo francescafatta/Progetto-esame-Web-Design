@@ -11,13 +11,15 @@ _JavaScript_, linguaggio di programmazione multi paradigma orientato agli eventi
 
 **STRUMENTI USATI**
 
-Durante il corso è stato impiegato CodePen, un editor di codice online, utile per gli sviluppatori poichè consente di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
+Durante il corso è stato impiegato _CodePen_, un editor di codice online, utile per gli sviluppatori poichè consente di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
 
-Altri strumenti impiegati sono poi stati Github e Netlify: il primo con lo scopo di salvare, verificare e versionare il nostro progetto; il secondo con lo scopo di pubblicare online i lavori.
+Altri strumenti impiegati sono poi stati _Github_ e _Netlify_: il primo con lo scopo di salvare, verificare e versionare il nostro progetto; il secondo con lo scopo di pubblicare online i lavori.
 
 **PROGETTO ESAME**
 
-Per l'esame è stata richiesta la creazione di una monopagina relativa al sito di un'azienda da noi scelta.
+Per l'esame è stata richiesta la creazione di una monopagina relativa ad un'azienda da noi liberamente scelta.
+
+In questo caso, si è fatto riferimento alla pasticceria Brusa, sorta nella piccola realtà biellese.
 
 
 
