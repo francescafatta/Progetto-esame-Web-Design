@@ -40,3 +40,8 @@ table {
 table, th, td {
   border: 1px solid black;
 }
+
+  nav a:hover {
+			background-color: #502816;
+			color: white;
+		}
