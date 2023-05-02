@@ -23,6 +23,17 @@ La pagina dovrà avere le seguenti caratteristiche:
 
 ELEMENTI PRINCIPALI: 
 * Nome azienda e motto
+* Chi siamo
+* I servizi che offriamo
 
+ELEMENTI DESCRITTIVI:
+* Blog e notizie
+* Testimonial
+* Dove trovarci
+* Modulo di contatto
+
+CARATTERISTICHE:
+* Responsive
+* Esente da errori sintattici
 
 Di seguito il link per visualizzare la pagina: [****stellar-taiyaki-255f2b****](https://stellar-taiyaki-255f2b.netlify.app/)
