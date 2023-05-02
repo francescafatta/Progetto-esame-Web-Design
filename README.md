@@ -1,7 +1,7 @@
 # Progetto esame Web Design
 **SCOPO DEL CORSO**
 
-Il corso, che prende ispirazione dagli esempi proposti da w3schools arricchendoli con una serie di slide in italiano, si pone come obiettivo l'acquisizione da parte dello studente delle conoscenze base per poter padroneggiare linguaggi come _HTML_, _CSS_ e _JavaScript_.  
+Il corso, che prende ispirazione dagli esempi proposti da w3schools arricchiti da una serie di slide, si pone come obiettivo l'acquisizione da parte dello studente delle conoscenze base per poter padroneggiare i seguenti linguaggi: _HTML_, _CSS_ e _JavaScript_.  
 
 _HTML_ (Hyper Text Markup Language), è il linguaggio standard per la creazione di pagine web. Descrive la struttura delle pagine e identifica una serie di elementi strutturati. La sua interpretazione necessita di un browser.
 
@@ -11,9 +11,9 @@ _JavaScript_, linguaggio di programmazione multi paradigma orientato agli eventi
 
 **STRUMENTI USATI**
 
-Durante il corso è stato impiegato _CodePen_, un editor di codice online, utile per gli sviluppatori poichè consente di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
+_CodePen_: editor di codice online, utile per gli sviluppatori poichè consente di scrivere codice nel browser e di vederne i risultati mentre si sta costruendo la pagina web.
 
-Altri strumenti impiegati sono poi stati _Github_ e _Netlify_: il primo con lo scopo di salvare, verificare e versionare il nostro progetto; il secondo con lo scopo di pubblicare online i lavori.
+_Github_ e _Netlify_: il primo con lo scopo di salvare, verificare e versionare il nostro progetto; il secondo con lo scopo di pubblicare online i lavori.
 
 **PROGETTO ESAME**
 
