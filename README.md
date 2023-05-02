@@ -21,8 +21,8 @@ Per l'esame è stata richiesta la creazione di una monopagina relativa ad un'azi
 
 La pagina dovrà avere le seguenti caratteristiche:
 
-ELEMENTI PRINCIPALI:
-*Nome azienda e motto
+ELEMENTI PRINCIPALI: 
+* Nome azienda e motto
 
 
 Di seguito il link per visualizzare la pagina: [****stellar-taiyaki-255f2b****](https://stellar-taiyaki-255f2b.netlify.app/)
