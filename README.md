@@ -19,4 +19,10 @@ _Github_ e _Netlify_: il primo con lo scopo di salvare, verificare e versionare 
 
 Per l'esame è stata richiesta la creazione di una monopagina relativa ad un'azienda da noi liberamente scelta: in questo caso, si è fatto riferimento alla pasticceria Brusa, situata nella piccola realtà biellese.
 
+La pagina dovrà avere le seguenti caratteristiche:
+
+ELEMENTI PRINCIPALI:
+*Nome azienda e motto
+
+
 Di seguito il link per visualizzare la pagina: [****stellar-taiyaki-255f2b****](https://stellar-taiyaki-255f2b.netlify.app/)
