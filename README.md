@@ -16,13 +16,13 @@ L'obiettivo è quello di creare una pagina web responsive che comprenda i seguen
 * Descrizione dei prodotti offerti dall'azienda
 * Contatti e profili social dell'azienda
 
-## Strumenti usati per la creazione di questa pagina:
+## Strumenti usati:
 
 * Codepen
 * Github
 * Netlify
 
-## Linguaggi usati per la creazione di questa pagina:
+## Linguaggi usati:
 
 * HTML
 * CSS
