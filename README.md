@@ -2,7 +2,7 @@
 
 _corso web design 1 - Matteo Baccan_
 
-_Accademia di Belle Arti - ACME Novara
+_Accademia di Belle Arti - ACME Novara_
 
 ## Sito web pasticceria "Brusa"
 
