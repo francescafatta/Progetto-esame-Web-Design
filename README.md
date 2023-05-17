@@ -22,6 +22,12 @@ L'obiettivo è quello di creare una pagina web responsive che comprenda i seguen
 * Github
 * Netlify
 
+## Linguaggi usati per la creazione di questa pagina:
+
+* HTML
+* CSS
+* Javascript
+
 ## Link:
 
 Di seguito il link per visualizzare la pagina: [****stellar-taiyaki-255f2b****](https://stellar-taiyaki-255f2b.netlify.app/)
