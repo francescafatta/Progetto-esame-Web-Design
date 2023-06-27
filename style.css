@@ -1,72 +1,96 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  background-color: #3d1f10;
-  top: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
+.logo {
+  height: 125px;
   display: block;
+  margin: 0 auto;
+}
+
+.spacer {
+  height: 30px;
+}
+
+.navbar-custom {
+      background-color: #3d1f10;
+    }
+
+.navbar-nav {
+      margin-left: auto;
+    }
+
+ .navbar-nav .nav-link {
+      color: white;
+    }
+
+.navbar-nav .nav-link:hover{
+      color: #3d1f10;
+      background-color: white;
+    }
+
+.button-custom {
+  background-color: #3d1f10;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  font-size: 1.25rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
   text-decoration: none;
+    }
+
+.contact {
+  background-color: #f8f8f8;
+  padding: 50px 0;
 }
-
-li a:hover {
-  background-color: white;
-  color: #3d1f10;
-}
-
-h1 {
-  color: #3d1f10;
-  text-align: center;
-  }
-
-h2 {
-  color: #3d1f10;
-  text-align: center;
-  font-style: italic;
-  }
 
 .footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #3d1f10;
-   color: white;
-   text-align: center;
-   padding: 1px 0;
+  background-color: #3d1f10;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
-body {
+.footer p {
   margin: 0;
-  }
- 
-table {
-  border-spacing: 30px;
-  width: 1020px;
-  margin-left: auto;
-  margin-right: auto;
+  color: #fff;
 }
 
- table, td {
-  border: 1px solid black;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-table img {
-  width: 300px;
+.intestazione {
+  background-color: #3d1f10;
+  padding: 20px 0;
+  color: #fff;
+  font-family: Segoe Script;
 }
 
-td {
-  width: 300px;
-  padding: 0px;
+.intestazione h1 {
+   font-size: 60px;
 }
+
+h1, h2, p {
+  text-align: center;
+}
+
+.contact p {
+  text-align: left;
+}
+
+.contact h2 {
+  text-align: left;
+}
+
+.contact h3 {
+  text-align: left;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+.logo2 {
+  height: 50px;
+}
+
+
