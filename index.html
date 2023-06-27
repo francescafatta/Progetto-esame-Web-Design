@@ -1,469 +1,572 @@
 <!DOCTYPE html>
 <html lang="it">
+  
 <head>
   <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Sito web Brusa</title>
+  
   <link rel="stylesheet" href="style.css">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
   
   <style>
 @media screen and (max-width: 1200px) {
-    table {
-      display: none;
-      }
+  
+    .intestazione {
+  background-color: #deb887;
+}
+  
+  .intestazione h1 {
+   font-size: 40px;
+}
+  
 }
   </style>
   
-<body>
-  
-<ul>
-  <li><a href="#Home">Home</a></li>
-  <li><a href="#ChiSiamo">Chi siamo</a></li>
-  <li><a href="#INostriProdotti">I nostri prodotti</a></li>
-  <li><a href="#Contatti">Contatti</a></li>
-</ul>
-   
-  <div id="Home" style="padding:50px 0; background-image:url('https://laprovinciadibiella.it/wp-content/uploads/2016/03/Oggi-La-Nuova-Provincia-di-Biella-regala-i-canestrelli-56f634b0d9cf81.jpg'); background-size: cover;">
-   <h1>Dal 1974</h1>
-  
+  <body>
+    
+     <div style="position:fixed; bottom:10px; right:10px; width:50px; height:50px; border-radius: 100%; text-align: center; background-color:white; z-index:10"><a href="#Home"><i class="fa-solid fa-chevron-up" style="font-size:50px; color:#3d1f10"></i></a></div>
+    
+  <nav id="Home" class="navbar navbar-expand-lg navbar-custom">
+      <img src="https://www.brusa.com/wp-content/uploads/2020/11/logo_brusa_web_2x.png" alt="Logo" class="logo2">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ChiSiamo">Chi siamo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#INostriProdotti">I nostri prodotti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contatti">Contatti</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+    <div style="background-image:url('https://laprovinciadibiella.it/wp-content/uploads/2016/03/Oggi-La-Nuova-Provincia-di-Biella-regala-i-canestrelli-56f634b0d9cf81.jpg'); background-size: cover;">
+      
+      <div class="spacer"></div>
+    
+    <div>
+      <img src="https://www.brusa.com/wp-content/uploads/2020/11/logo_brusa_web_2x.png" alt="Logo Brusa" class="logo">
+      
+      <div class="spacer"></div>
+      
+     <section>
+       <div>
+          <h1>Dal 1974</h1>
   <h2>Tradizione e Qualità Piemontese</h2>
   
-  <hr align="center" size="1" width="150" color="#502816">
     <br>
   
-  <p style="text-align:center"><i>Il gusto inconfondibile</i> <br> <b>DEI NOSTRI PRODOTTI</b> <br> <br> Perfetti in <b>qualsiasi momento</b> della giornata. <br> A <b>colazione</b>, <b>merenda</b> e per i tuoi spuntini, trova il prodotto <b>Brusa</b> più adatto alle tue esigenze.</p>
-  </div>
-  
-  <div id="ChiSiamo" style="padding:50px 0; background-color: #deb887">
-  <h1>I Nostri Valori</h1>
-  
+  <p><i>Il gusto inconfondibile</i> <br> <b>DEI NOSTRI PRODOTTI</b> <br> <br> Perfetti in <b>qualsiasi momento</b> della giornata. <br> A <b>colazione</b>, <b>merenda</b> e per i tuoi spuntini, trova il prodotto <b>Brusa</b> più adatto alle tue esigenze.</p>
+       </div>
+       </section>
+      
+      <div class="spacer"></div>
+      
+      </section>
+    </div>
+      
+        <section id="ChiSiamo" class="intestazione">
+    <div class="container">
+      <h1>I Nostri Valori</h1>
   <h2>Tradizione e innovazione</h2>
+    </div>
+  </section>
   
-   <hr align="center" size="1" width="150" color="#3d1f10">
-    <br>
-  </div>
-    
-  <p style="text-align:center"><b>Brusa</b> è un’azienda a conduzione famigliare, attiva sin dal <b>1974</b>, nella produzione di <b>prodotti da forno</b>. <br> Nata nel Biellese, ha deciso che questo territorio e le sue persone erano perfette per sviluppare l’eccellenza delle specialità Piemontesi. </br> I nostri prodotti sono il frutto della tradizione locale e la testimonianza del nostro profondo legame con il territorio.</p> 
+      <section>
+        <div class="container">
+          <p><b>Brusa</b> è un’azienda a conduzione famigliare, attiva sin dal <b>1974</b>, nella produzione di <b>prodotti da forno</b>. <br> Nata nel Biellese, ha deciso che questo territorio e le sue persone erano perfette per sviluppare l’eccellenza delle specialità Piemontesi. </br> I nostri prodotti sono il frutto della tradizione locale e la testimonianza del nostro profondo legame con il territorio.</p> 
 <br>
-<p style="text-align:center">Facciamo tesoro del <b>sapere di un tempo</b> attraverso il recupero delle ricette <b>tradizionali piemontesi</b>, unito alla costante <b>ricerca</b> e <b>innovazione</b> per offrire sempre un <b>prodotto d’eccellenza</b>. <br> Selezioniamo solo le <b>migliori materie prime</b> e manteniamo i <b>metodi di lavorazione artigianali</b> che ci sono stati tramandati dai soci fondatori.</p>
+<p>Facciamo tesoro del <b>sapere di un tempo</b> attraverso il recupero delle ricette <b>tradizionali piemontesi</b>, unito alla costante <b>ricerca</b> e <b>innovazione</b> per offrire sempre un <b>prodotto d’eccellenza</b>. <br> Selezioniamo solo le <b>migliori materie prime</b> e manteniamo i <b>metodi di lavorazione artigianali</b> che ci sono stati tramandati dai soci fondatori.</p>
 <br>
-<p style="text-align:center"><b>Dal 2004 l’azienda ha sede a Biella</b>, dove nei tre laboratori, specializzati rispettivamente nella produzione di panetteria, grissini e pasticceria e cioccolato vengono lavorate 1800 tonnellate di prodotti all’anno. <br> Nello stabilimento si trova anche l’Outlet di 250mq aperto al pubblico dal lunedì alla domenica mentre a Castelletto Ticino (No), Saronno e Verbania, abbiamo aperto il nostro nuovo Concept store <b>“Caffè Brusa”</b>.</p> 
+<p><b>Dal 2004 l’azienda ha sede a Biella</b>, dove nei tre laboratori, specializzati rispettivamente nella produzione di panetteria, grissini e pasticceria e cioccolato vengono lavorate 1800 tonnellate di prodotti all’anno. <br> Nello stabilimento si trova anche l’Outlet di 250mq aperto al pubblico dal lunedì alla domenica mentre a Castelletto Ticino (No), Saronno e Verbania, abbiamo aperto il nostro nuovo Concept store <b>“Caffè Brusa”</b>.</p> 
 <br>
-<p style="text-align:center">I prodotti a <b>marchio Brusa</b> raggiungono il consumatore attraverso i molti clienti della distribuzione organizzata e
+<p>I prodotti a <b>marchio Brusa</b> raggiungono il consumatore attraverso i molti clienti della distribuzione organizzata e
 del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presente anche sul canale <b>Horeca e Vending</b> e offre l’opportunità di acquistare anche online attraverso la propria piattaforma e-commerce <b>www.spacciobrusa.com</b>.</p>
 <br>
-<p style="text-align:center">L’<b>export</b> è in espansione. <br> Attualmente l’azienda esporta i propri prodotti in Europa, Asia, Medioriente e America ed è registrata al <b>FDA</b> (Food and Drug Administration) per le esportazioni negli Stati Uniti. <br> L’azienda è certificata per la produzione di prodotti biologici, è certificata IFS e si sta attivando per essere <b>certificata BRC</b>, standard globali per la sicurezza degli alimenti.</p>
-
-<div style="background-color: #f6e2bc; text-align: center; padding:70px 0; color: #3d1f10;">
+<p>L’<b>export</b> è in espansione. <br> Attualmente l’azienda esporta i propri prodotti in Europa, Asia, Medioriente e America ed è registrata al <b>FDA</b> (Food and Drug Administration) per le esportazioni negli Stati Uniti. <br> L’azienda è certificata per la produzione di prodotti biologici, è certificata IFS e si sta attivando per essere <b>certificata BRC</b>, standard globali per la sicurezza degli alimenti.</p>
+        </div>
+      </section>
+  
+  <section>
+    <div style="background-color: #f6e2bc; text-align: center; padding:70px 0; color: #3d1f10;">
 <i class="fa-sharp fa-solid fa-tag" style="font-size:50px"></i>
 <p>Da sempre vicini ai nostri Clienti, siamo a disposizione per lo sviluppo di <b>personalizzazioni di confezioni</b> ed etichette, variazioni di grammatura e realizzazione di <b>Private Label</b>.</p>
 </div>
-
-<div style="background-color:#deb887; padding: 10px;">
-  <h1>Certificazioni</h1>
-
-<h2>Filiera del grano 100% italiano</h2>
-
- <hr align="center" size="1" width="150" color="#3d1f10">
-  <br>
-</div>
+  </section>
   
-  <p style="text-align:center">Brusa ha avviato un percorso di trasparenza della tracciabilità, attraverso la tecnologia block chain, inaugurando il primo GRISSINO 100% ITALIANO, tracciato end-to-end, dal seme allo scaffale. Primo in Italia e Europa. <br> <br> Il progetto sfrutta le potenzialità della piattaforma, in grado di garantire, in real time e in totale trasparenza, l’intera tracciabilità della filiera di produzione e della trasformazione, consentendo di certificarne la qualità e la provenienza e assicurando al tempo stesso la massima trasparenza per agricoltori, trasformatori, distributori, retailer e consumatori. Connettiamo così l’intero ecosistema della filiera alimentare, al fine di creare un sistema più intelligente e sicuro, in grado di valorizzare il territorio e la sostenibilità.<br> <br> <i>Da sempre, Brusa presta un’attenzione particolare alla qualità, selezionando materie prime da filiera controllata e certificata, per garantire prodotti dal sapore unico e inconfondibile.</i></p>
-<div style="background-color: #f6e2bc; text-align: center; padding:70px 0; color: #502816;">
+  <section class="intestazione">
+    <div class="container">
+      <h1>Certificazioni</h1>
+  <h2>Filiera del grano 100% italiano</h2>
+    </div>
+  </section>
+  
+  <section>
+     <div class="container">
+    <p>Brusa ha avviato un percorso di trasparenza della tracciabilità, attraverso la tecnologia block chain, inaugurando il primo GRISSINO 100% ITALIANO, tracciato end-to-end, dal seme allo scaffale. Primo in Italia e Europa. <br> <br> Il progetto sfrutta le potenzialità della piattaforma, in grado di garantire, in real time e in totale trasparenza, l’intera tracciabilità della filiera di produzione e della trasformazione, consentendo di certificarne la qualità e la provenienza e assicurando al tempo stesso la massima trasparenza per agricoltori, trasformatori, distributori, retailer e consumatori. Connettiamo così l’intero ecosistema della filiera alimentare, al fine di creare un sistema più intelligente e sicuro, in grado di valorizzare il territorio e la sostenibilità.<br> <br> <i>Da sempre, Brusa presta un’attenzione particolare alla qualità, selezionando materie prime da filiera controllata e certificata, per garantire prodotti dal sapore unico e inconfondibile.</i></p>
+    </div>
+  </section>
+  
+  <section>
+    <div style="background-color: #f6e2bc; text-align: center; padding:70px 0; color: #502816;">
 <i class="fa-sharp fa-solid fa-qrcode" style="font-size:50px"></i>
   <p>Stampando poi sulla confezione di ogni prodotto distribuito il <b>QR Code</b>, Brusa darà al consumatore finale la possibilità di conoscere la storia dei prodotti e tanto altro. <br><i>“La qualità è coscienza”</i>, uno slogan che sintetizza la visione del suo fondatore <b>Secondino Brusa</b>; una visione che esprime l’imprescindibile legame sociale ed economico che è presente con il territorio.</p>
 </div>
-   
-  <div id="INostriProdotti" style="padding:50px 0; background-color:#deb887;">
-  <h1>Pasticceria</h1>
-   <h2>Canestrej di Biella - Biscotti</h2>
-
-<hr align="center" size="1" width="150" color="#3d1f10">
-  <br>
-</div>
+  </section>
   
-<div style="padding: 10px;">
-<h2>Canestrej di Biella</h2>
-
-<img src="https://www.spacciobrusa.com/wp-content/uploads/2020/12/CANESTRELLI.jpg" alt= "Canestrelli" style="float: left; height:200px; margin-right: 80px;">
-
- <p style="text-align:justify">CROCCANTI CIALDE RIPIENE DI FINISSIMO CIOCCOLATO FONDENTE <br> <br> Traggono origine dalle rustiche miasce, che pare risalgano ai tempi biblici e fossero apprezzate pure dai Romani. <br> Nell’antica ricetta di queste cialde si mescolavano farina bianca e fioretto (farina di mais setacciata fine), zucchero, burro morbido e la buccia grattugiata di un limone. <br> Incorporando il latte, si otteneva un composto abbastanza sodo che veniva cotto fra due piastre di pietra roventi, ora sostituite da quelle in acciaio. <br> Furono le famiglie nobili ad iniziare ad incidere sulle piastre lo stemma del loro casato così che apparisse sulle miasce cotte. <br> Nell’antico manoscritto del 1805, custodito presso la biblioteca reale di Torino, “Notice sur l’arrondissement de Biella, departement de la Sesia”, i Canestrej vengono citati come prodotto tipico Biellese. <br> I Canestrej sono entrati a far parte del gruppo di prodotti agroalimentari tradizionali piemontesi, tutelati e valorizzati dalla Regione Piemonte. <br> Brusa conserva i metodi di lavorazione artigianali ed arricchisce le sue croccanti cialde con un cioccolato finissimo di prima qualità.</p>
-</div>
-
-<br>
-<br>
+  <section id="INostriProdotti" class="intestazione">
+    <div class="container">
+      <h1>Pasticceria</h1>
+  <h2>Canestrej di Biella - Biscotti</h2>
+    </div>
+  </section>
+  
+  <section>
+     <div class="container">
+       <div class="row">
+        <div class="col-md-6">
+       <h2>Canestrej di Biella</h2>
+     <p style="text-align:justify">CROCCANTI CIALDE RIPIENE DI FINISSIMO CIOCCOLATO FONDENTE <br> <br> Traggono origine dalle rustiche miasce, che pare risalgano ai tempi biblici e fossero apprezzate pure dai Romani. <br> Nell’antica ricetta di queste cialde si mescolavano farina bianca e fioretto (farina di mais setacciata fine), zucchero, burro morbido e la buccia grattugiata di un limone. <br> Incorporando il latte, si otteneva un composto abbastanza sodo che veniva cotto fra due piastre di pietra roventi, ora sostituite da quelle in acciaio. <br> Furono le famiglie nobili ad iniziare ad incidere sulle piastre lo stemma del loro casato così che apparisse sulle miasce cotte. <br> Nell’antico manoscritto del 1805, custodito presso la biblioteca reale di Torino, “Notice sur l’arrondissement de Biella, departement de la Sesia”, i Canestrej vengono citati come prodotto tipico Biellese. <br> I Canestrej sono entrati a far parte del gruppo di prodotti agroalimentari tradizionali piemontesi, tutelati e valorizzati dalla Regione Piemonte. <br> Brusa conserva i metodi di lavorazione artigianali ed arricchisce le sue croccanti cialde con un cioccolato finissimo di prima qualità.</p>
+         </div>
+         
+         <div class="col-md-6">
+           <img src="https://www.spacciobrusa.com/wp-content/uploads/2020/12/CANESTRELLI.jpg" alt= "Canestrelli" style="height:400px;">
+         </div>
+       
+         <div class="spacer"></div>
     
- <div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
+     <div class="d-flex justify-content-center">
+    <a class="button-custom" href="https://www.spacciobrusa.com/" role="button">Scopri tutta la linea!</a>
+    </div>
+    </div>
 
-<br>
-<br>
+<div class="spacer"></div>  
   
   <h2>Biscotti</h2>
 
- <p style="text-align:center">Con la pasticceria, Brusa vuole esaltare la lunga storia di tradizione piemontese, selezionando una linea di prodotti dove la cura della lavorazione e l’attenzione agli ingredienti di alta qualità, si esprimono ai massimi livelli. <br> Dai famosi Baci di Dama, ai tipici Torcetti biellesi esaltati dal burro di malga, al frollino di mais Paste di Meliga e tutta la pasticceria piemontese rappresentativa del nostro territorio, che nasce da ricette antichissime, conservando ancora il metodo di lavorazione artigianale. <br> La materia prima impiegata è di primissima qualità e proviene da filiera certificata di origine locale.</p>
-
-<br>
-
-<table>
-<tr>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/baci_nudo.jpg" alt="Baci di Dama"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/meliga_nudo.jpg" alt="Paste di Meliga"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/lingue_nudo.jpg" alt="Lingue di Gatto"></td>
-</tr>
-   
-    <tr>
-     <td style="border:none;">Baci di Dama</td>
-      <td style="border:none;">Paste di Meliga</td>
-      <td style="border:none;">Lingue di Gatto</td>
-   </tr>
-  
-   <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2021/05/torcetto_nudo.jpg" alt="Torcetti"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/torciocco_nudo.jpg" alt="Torcetti al cioccolato"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/amaretti_nudo.jpg" alt="Amaretti"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Torcetti</td>
-     <td style="border:none;">Torcetti al cioccolato</td>
-      <td style="border:none;">Amaretti</td>
-   </tr>
-   
-    <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2021/05/krumiri_nudo.jpg" alt="Krumiri"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/kumiriciocco_nudo.jpg" alt="Krumiri con gocce di cioccolato"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/48_monte-bianco-nudo.jpg" alt="Monte Bianco"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Krumiri</td>
-     <td style="border:none;">Krumiri con gocce di cioccolato</td>
-      <td style="border:none;">Monte Bianco</td>
-   </tr>
-   
-   <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2021/05/780_novara-nudi-1.jpg" alt="Novara"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/797_novarino-nudi-1.jpg" alt="Novarino"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/803_granella-nudi-1.jpg" alt="Granella"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Novara</td>
-     <td style="border:none;">Novarino</td>
-      <td style="border:none;">Granella</td>
-   </tr>
-   
-   <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2021/05/D13_novellone-nudo-normale-1.jpg" alt="Novellone"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/D63_novellone-senza-zucch-nudo-1.jpg" alt="Novellone senza zuccheri aggiunti"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/4N_spumiglie-nude.jpg" alt="Spumiglie con granella di nocciola"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Novellone</td>
-     <td style="border:none;">Novellone senza zuccheri aggiunti</td>
-      <td style="border:none;">Spumiglie con granella di nocciola</td>
-   </tr>
-   
-    </table>
-
-  <br>
-  <br>
-  
-  <div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-
-<br>
-  <br>
-  
-  <div style="background-color:#deb887; padding:10px 0;">
-  <h1>Grissineria</h1>
-
-     <h2>Gourmet - Rubatà - Ario - I Finissimi</h2>
+ <p>Con la pasticceria, Brusa vuole esaltare la lunga storia di tradizione piemontese, selezionando una linea di prodotti dove la cura della lavorazione e l’attenzione agli ingredienti di alta qualità, si esprimono ai massimi livelli. <br> Dai famosi Baci di Dama, ai tipici Torcetti biellesi esaltati dal burro di malga, al frollino di mais Paste di Meliga e tutta la pasticceria piemontese rappresentativa del nostro territorio, che nasce da ricette antichissime, conservando ancora il metodo di lavorazione artigianale. <br> La materia prima impiegata è di primissima qualità e proviene da filiera certificata di origine locale.</p>
+    </section> 
     
-<hr align="center" size="1" width="150" color="#502816">
-    <br>
-  </div>
-    
-<h2>Gourmet</h2>
-
-<p style="text-align:center">GRISSINI PIEMONTESI STIRATI <br> <br> Dal 1974 Brusa porta avanti la tradizione del grissino piemontese, una delle specialità della sua produzione. <br> Disponibili in tanti gusti sfiziosi, preparati ogni giorno con materie prime semplici e genuine e arricchiti da spezie e ingredienti mediterranei come olive, peperoncino, cipolla, sesamo, rosmarino, noci e olio extravergine d’oliva, i grissini Brusa sono ideali per accompagnare i pasti, da servire all’ora dell’aperitivo o come snack sfizioso.</p>
-
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-
-<br>
-<br>
-  
-<h2>Rubatà</h2>
-
-<p style="text-align:center">I GRISSINI TIPICI "CADUTI" <br> <br> I Rubatà sono grissini tipici della cucina piemontese. <br> Il loro nome deriva dal dialetto e significa “caduto” per la tecnica con la quale viene conferita questa tipica forma arrotolata. <br> Dopo averli stirati, il panettiere li prende dalle estremità e li rivolta, compiendo un giro completo coi pollici e lasciandoli appunto cadere o meglio “rubatè” con dolce violenza sul tavolaccio di stiramento.</p>
-
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-
-<br>
-<br>
-
-<h2>Ario</h2>
-
-<p style="text-align:center">GRISSINI ARTIGIANALI STIRATI A MANO <br> <br> Prodotti secondo un’antichissima ricetta piemontese, i grissini artigianali vengono stirati a mano dopo una lenta lavorazione che conferisce una perfetta friabilità e li rende leggeri, buoni e genuini. <br> Il nome di questa linea nasce proprio dalla loro caratteristica principale, cioè un grissino più leggero e arioso, ma senza rinunciare al piacere del gusto.</p>
-
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-
-<br>
-<br>
-
-<h2>I Finissimi</h2>
-
-  <p style="text-align:center">GRISSINI PIEMONTESI STIRATI <br> <br> I nostri grissini Finissimi, ideati per una dieta più sfiziosa, per essere molto più sottili ed intriganti. <br> Si possono assaporare come accompagnamento di antipasti, pasti principali e sono ottimi come aperitivo.</p>  
-
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-
-<br>
-<br>
-  
-  <div style="background-color:#deb887; padding:10px 0;">
-  <h1>Grandi lievitati</h1>
-    
-     <h2>Panettoni - Colombe</h2>
-
-<hr align="center" size="1" width="150" color="#502816">
-    <br>
-     </div>
-
-<h2>Panettoni</h2>
-
- <p style="text-align:center">Il panettone artigianale Brusa, è caratterizzato da un antico lievito naturale da madre bianca. <br> A differenza del lievito di birra, la fermentazione con lievito naturale è molto più lenta e richiede una lavorazione più complessa. <br> Sono numerose le proprietà positive riconosciute alla pasta acida naturale o lievito naturale: maggiore digeribilità delle proteine; migliore lavorabilità dell’impasto; aroma più intenso, sapore e fragranza particolari. <br>
-Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
-
-<br>
-
-<table>
-<tr>
-<td><img src="https://www.brusa.com/wp-content/uploads/2022/08/0666_milanese_nudo.jpg" alt="Panettone milanese basso"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/5396_mandorlato_nudo.jpg"alt="Panettone milanese glassato con mandorle"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2022/08/34_cioccolato_nudo.jpg" alt="Panettone al cioccolato"></td>
-</tr>
-   
-    <tr>
-     <td style="border:none;">Panettone milanese basso</td>
-      <td style="border:none;">Panettone milanese glassato con mandorle</td>
-      <td style="border:none;">Panettone al cioccolato</td>
-   </tr>
-  
-   <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2022/08/33_pere-cioccolato_nudo.jpg" alt="Panettone pera e cioccolato"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2022/08/9844_fichi-cioccolato_nudo.jpg" alt="Panettone fichi e cioccolato"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2022/08/4121_mirtilli-prosecco_nudo.jpg" alt="Panettone mirtillo rosso e Prosecco"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Panettone pera e cioccolato</td>
-     <td style="border:none;">Panettone fichi e cioccolato</td>
-      <td style="border:none;">Panettone mirtillo rosso e Prosecco</td>
-   </tr>
-   
-    <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2021/05/4138_paradiso_nudo.jpg" alt="Panettone Paradiso al limone"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2022/08/Panettone-Marron-Glace-nudo.jpg" alt="Panettone al Marron Glacè"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2022/08/Panettone-Cremino-nudo2.jpg" alt="Panettone al Cremino"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Panettone Paradiso al limone</td>
-     <td style="border:none;">Panettone al Marron Glacè</td>
-      <td style="border:none;">Panettone al Cremino</td>
-   </tr>
-   
-   <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2022/08/Panettone-Moscato-nudo.jpg" alt="Panettone al Moscato"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Panettone al Moscato</td>
-   </tr>
-   
-</table>
-
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-  
-<br>
-<br>
-
-<h2>Colombe</h2>
-  <p style="text-align:center">Come per i panettoni, anche le nostre colombe sono realizzate utilizzando solo materie prime di alta qualità: <br> lievito naturale da madre bianca, burro da panna fresca pastorizzata di puro latte di mucca, uova e tuorlo d’uova, frutta candita.</p>
-
-<br>
-
-<table>
-<tr>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/C20_classica-nuda.jpg" alt="Colomba Glassata Mandorlata Classica"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/C26_ciocco-nuda.jpg" alt="Colomba Glassata Cioccolato"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/C24_amarene-nuda.jpg" alt="Colomba Glassata Amarene"></td>
-</tr>
-   
-    <tr>
-     <td style="border:none;">Colomba Glassata Mandorlata Classica</td>
-      <td style="border:none;">Colomba Glassata Cioccolato</td>
-      <td style="border:none;">Colomba Glassata Amarene</td>
-   </tr>
-  
-   <tr>
-     <td><img src="https://www.brusa.com/wp-content/uploads/2023/01/te-limone_nuda.jpg" alt="Colomba Primavera"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2021/05/C31_esotica-nuda.jpg" alt="Colomba Esotica"></td>
-<td><img src="https://www.brusa.com/wp-content/uploads/2023/01/ciocco-nuda.jpg" alt="Colomba Glassata Fichi e Cioccolato"></td>
-</tr>
-   
-   <tr>
-       <td style="border:none;">Colomba Primavera</td>
-     <td style="border:none;">Colomba Esotica</td>
-      <td style="border:none;">Colomba Glassata Fichi e Cioccolato</td>
-   </tr>
-   
-</table>
-  
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Scopri tutta la linea!</a>
-  </div>
-
-<br>
-<br>
-  
-   <div id="Contatti" style="padding:50px 0;">
-     <h1 id="Contatti">Contatti</h1>
-     <h2>Resta in contatto con noi</h2>
-     
-<hr align="center" size="1" width="150" color="#502816">
-
-<p style="text-align:center"><i>Che tu sia un’azienda, un operatore professionale o un consumatore, non esitare a contattarci per avere maggiori informazioni sulla nostra attività e sui nostri prodotti, o per richiedere una campionatura.</i></p>
-<br>
-
-<div style="text-align: center;">
-<div style="float:left; display:inline-block; width: 33.3%;">
-<p>Informazioni societarie</p>
-<p>BRUSA SRL</p>
-<p><b>Sede legale</b><br>
-Via Ferruccio Nazionale, 3<br>
-13900 Biella<br><br>
-Partita IVA e C.F. 00219460029<br>
-Cap. Sociale € 100.000,00 i.v.<br><br>
-<b>Contatti</b><br>
-Telefono: +39 015 406054<br>
-Fax: +39 015 402884<br>
-E-mail: info@brusa.com
-</p>
-</div>
-  
-<div style= "float:left; display:inline-block; width: 33.3%;">
-<p>Punto vendita diretto</p>
-<p>SPACCIO BRUSA</p>
-<p>Via Ferruccio Nazionale, 3<br>
-13900 Biella<br><br>
-  <b>Contatti</b><br>
-Telefono: +39 015 406054 (interno 4)<br>
-E-mail: spaccio@brusa.com<br><br>
-<b>Orari di apertura</b><br>
-  <i>Dal lunedì al sabato</i><br>
-9:00 – 18:30<br>
-  <i>Domenica</i><br>
-9:30 – 13:00 / 14:30 – 18:30
-</p>
-  
-  <br>
-  
-  <i class="fa-brands fa-facebook"></i>
-  <i class="fa-brands fa-instagram"></i>
-  <i class="fa-brands fa-linkedin"></i>
-</div>
-  
-<div style="display:inline-block; width: 33.3%;">
-<p>Brusa Caffè</p>
-<p>Vieni ad assaggiare le nostre creazioni!<br>
-Scopri il Brusa Caffé più vicino a te:<br><br>
-<b>Saronno</b><br>
-Viale Lombardia, 31 A<br><br>
-<b>Castelletto Ticino</b><br>
-Via Sempione, 159</p>
-</div>
-</div>
-<div style="clear:both;"></div>
-  
-<br>
-<br>
-
-<div style="background-color: #3d1f10; padding: 20px; width: 200px; height: 20px; margin: 0 auto; text-align: center;">
-  <a href="https://www.spacciobrusa.com/" style="text-decoration:none; color: white;">Acquista su SpaccioBrusa <i class="fa-solid fa-bag-shopping"></i></a>
-  </div>
-
-<br>
-<br>
-     
-<hr>
-
-<h1 style="text-align: center; color: black;">TI SERVE AIUTO?</h1>
-<p style="text-align: center;">Chiamaci o mandaci un messaggio su WhatsApp!<br><br>
-DAL LUNEDÌ AL SABATO<br>
-9.00 – 13:00 / 14:30 – 18:30<br><br>
-Tel. 015 406054 (int. 3)<br>
-Cell. +39 333 8356625<br><br>
-<b>Puoi fare un ordine telefonico, concordando tutti i dettagli con l’operatore.</b></p>
-<br>
-<br>
-
- <form action="/action_page.php">
-    <div style="margin: auto; width:400px; text-align:left;">
-<input type="text" id="fname" name="fname" style="width:400px"; value="Nome e Cognome"><br><br>
-  <input type="text" id="tnumber" name="tnumber" style="width:400px"; value="Telefono"><br><br>
-  <input type="email" id="email" name="email" style="width:400px"; value="Email"><br><br>
-  <textarea name="message" style="width:400px; height:150px;">Richiesta</textarea><br><br>
-  <input type="checkbox" id="privacy1" name="privacy1" value="Informativa privacy">
-  <label for="privacy1">Dichiaro di aver preso visione dell'informativa privacy, di essere consapevole del fatto che il Titolare tratterà dati personali a me riferibili al fine di erogare la richiesta. Obbligatorio.</label><br>
-  <input type="checkbox" id="privacy2" name="privacy2" value="Trattamento dati personali">
-  <label for="privacy2">Acconsento al trattamento dei miei dati personali per l'invio tramite e-mail di comunicazioni informative e promozionali. Non obbligatorio.</label><br><br>
-  <input type="submit" value="Invia">
-</div></form>
-  <br>
-  </div>
-  
-  <footer>
-  <div class="footer">
-  <p>© Copyright 2020 BRUSA SRL - All Rights Reserved.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-5">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/baci_nudo.jpg" class="card-img-top" alt="Baci di Dama">
+      <div class="card-body">
+        <h5 class="card-title">Baci di Dama</h5>
+      </div>
     </div>
-</footer>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/meliga_nudo.jpg" class="card-img-top" alt="Paste di Meliga">
+      <div class="card-body">
+        <h5 class="card-title">Paste di Meliga</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/lingue_nudo.jpg" class="card-img-top" alt="Lingue di Gatto">
+      <div class="card-body">
+        <h5 class="card-title">Lingue di Gatto</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/torcetto_nudo.jpg" class="card-img-top" alt="Torcetti">
+      <div class="card-body">
+        <h5 class="card-title">Torcetti</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/torciocco_nudo.jpg" class="card-img-top" alt="Torcetti al cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Torcetti al cioccolato</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/amaretti_nudo.jpg" class="card-img-top" alt="Amaretti">
+      <div class="card-body">
+        <h5 class="card-title">Amaretti</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/krumiri_nudo.jpg" class="card-img-top" alt="Krumiri">
+      <div class="card-body">
+        <h5 class="card-title">Krumiri</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/kumiriciocco_nudo.jpg" class="card-img-top" alt="Krumiri con gocce di cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Krumiri con gocce di cioccolato</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/48_monte-bianco-nudo.jpg" class="card-img-top" alt="Monte Bianco">
+      <div class="card-body">
+        <h5 class="card-title">Monte Bianco</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/780_novara-nudi-1.jpg" class="card-img-top" alt="Novara">
+      <div class="card-body">
+        <h5 class="card-title">Novara</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/797_novarino-nudi-1.jpg" class="card-img-top" alt="Novarino">
+      <div class="card-body">
+        <h5 class="card-title">Novarino</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/803_granella-nudi-1.jpg" class="card-img-top" alt="Granella">
+      <div class="card-body">
+        <h5 class="card-title">Granella</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/D13_novellone-nudo-normale-1.jpg" class="card-img-top" alt="Novellone">
+      <div class="card-body">
+        <h5 class="card-title">Novellone</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/D63_novellone-senza-zucch-nudo-1.jpg" class="card-img-top" alt="Novellone senza zuccheri aggiunti">
+      <div class="card-body">
+        <h5 class="card-title">Novellone senza zuccheri aggiunti</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/4N_spumiglie-nude.jpg" class="card-img-top" alt="Spumiglie con granella di nocciole">
+      <div class="card-body">
+        <h5 class="card-title">Spumiglie con granella di nocciole</h5>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    <div class="spacer"></div>
+    
+    <div class="d-flex justify-content-center">
+    <a class="button-custom" href="https://www.spacciobrusa.com/" role="button">Scopri tutta la linea!</a>
+    </div>
+    
+    <div class="spacer"></div>
+     
+   <section class="intestazione">
+    <div class="container">
+      <h1>Grissineria</h1>
+  <h2>Gourmet - Rubatà - Ario - I Finissimi</h2>
+    </div>
+  </section>
+  
+      <section>
+        <div class="container">
+          <h2>Gourmet</h2>
+
+<p>GRISSINI PIEMONTESI STIRATI <br> <br> Dal 1974 Brusa porta avanti la tradizione del grissino piemontese, una delle specialità della sua produzione. <br> Disponibili in tanti gusti sfiziosi, preparati ogni giorno con materie prime semplici e genuine e arricchiti da spezie e ingredienti mediterranei come olive, peperoncino, cipolla, sesamo, rosmarino, noci e olio extravergine d’oliva, i grissini Brusa sono ideali per accompagnare i pasti, da servire all’ora dell’aperitivo o come snack sfizioso.</p>
+        
+        
+        <h2>Rubatà</h2>
+
+<p>I GRISSINI TIPICI "CADUTI" <br> <br> I Rubatà sono grissini tipici della cucina piemontese. <br> Il loro nome deriva dal dialetto e significa “caduto” per la tecnica con la quale viene conferita questa tipica forma arrotolata. <br> Dopo averli stirati, il panettiere li prende dalle estremità e li rivolta, compiendo un giro completo coi pollici e lasciandoli appunto cadere o meglio “rubatè” con dolce violenza sul tavolaccio di stiramento.</p>
+          
+          <h2>Ario</h2>
+
+<p>GRISSINI ARTIGIANALI STIRATI A MANO <br> <br> Prodotti secondo un’antichissima ricetta piemontese, i grissini artigianali vengono stirati a mano dopo una lenta lavorazione che conferisce una perfetta friabilità e li rende leggeri, buoni e genuini. <br> Il nome di questa linea nasce proprio dalla loro caratteristica principale, cioè un grissino più leggero e arioso, ma senza rinunciare al piacere del gusto.</p>
+          
+          <h2>I Finissimi</h2>
+
+  <p>GRISSINI PIEMONTESI STIRATI <br> <br> I nostri grissini Finissimi, ideati per una dieta più sfiziosa, per essere molto più sottili ed intriganti. <br> Si possono assaporare come accompagnamento di antipasti, pasti principali e sono ottimi come aperitivo.</p>  
+        
+           <div class="spacer"></div>
+    
+     <div class="d-flex justify-content-center">
+    <a class="button-custom" href="https://www.spacciobrusa.com/" role="button">Scopri tutta la linea!</a>
+    </div>
+    </div>
+
+      
+<div class="spacer"></div>  
+          
+        </div>
+      </section>
+  
+<section class="intestazione">
+    <div class="container">
+      <h1>Grandi lievitati</h1>
+  <h2>Panettoni - Colombe</h2>
+    </div>
+  </section>
+  
+      <section>
+        <div class="container">
+          <h2>Panettoni</h2>
+
+ <p>Il panettone artigianale Brusa, è caratterizzato da un antico lievito naturale da madre bianca. <br> A differenza del lievito di birra, la fermentazione con lievito naturale è molto più lenta e richiede una lavorazione più complessa. <br> Sono numerose le proprietà positive riconosciute alla pasta acida naturale o lievito naturale: maggiore digeribilità delle proteine; migliore lavorabilità dell’impasto; aroma più intenso, sapore e fragranza particolari. <br>
+Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
+        </div>
+      </section>
+  
+<div class="row row-cols-1 row-cols-md-3 g-5">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2022/08/0666_milanese_nudo.jpg" class="card-img-top" alt="Panettone milanese basso">
+      <div class="card-body">
+        <h5 class="card-title">Panettone milanese basso</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/5396_mandorlato_nudo.jpg" class="card-img-top" alt="Panettone milanese glassato con mandorle">
+      <div class="card-body">
+        <h5 class="card-title">Panettone milanese glassato con mandorle</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2022/08/34_cioccolato_nudo.jpg" class="card-img-top" alt="Panettone al cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Panettone al cioccolato</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2022/08/33_pere-cioccolato_nudo.jpg" class="card-img-top" alt="Panettone pera e cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Panettone pera e cioccolato</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2022/08/9844_fichi-cioccolato_nudo.jpg" class="card-img-top" alt="Panettone fichi e cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Panettone fichi e cioccolato</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2022/08/4121_mirtilli-prosecco_nudo.jpg" class="card-img-top" alt="Panettone mirtillo rosso e Prosecco">
+      <div class="card-body">
+        <h5 class="card-title">Panettone mirtillo rosso e Prosecco</h5>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="spacer"></div>
+    
+     <div class="d-flex justify-content-center">
+    <a class="button-custom" href="https://www.spacciobrusa.com/" role="button">Scopri tutta la linea!</a>
+    </div>
+  
+  <section>
+        <div class="container">
+          <h2>Colombe</h2>
+
+ <p>Come per i panettoni, anche le nostre colombe sono realizzate utilizzando solo materie prime di alta qualità: <br> lievito naturale da madre bianca, burro da panna fresca pastorizzata di puro latte di mucca, uova e tuorlo d’uova, frutta candita.</p>
+        </div>
+      </section>
+    
+        <div class="row row-cols-1 row-cols-md-3 g-5">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/C20_classica-nuda.jpg" class="card-img-top" alt="Colomba Glassata Mandorlata Classica">
+      <div class="card-body">
+        <h5 class="card-title">Colomba Glassata Mandorlata Classica</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/C26_ciocco-nuda.jpg" class="card-img-top" alt="Colomba Glassata Cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Colomba Glassata Cioccolato</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/C24_amarene-nuda.jpg" class="card-img-top" alt="Colomba Glassata Amarene">
+      <div class="card-body">
+        <h5 class="card-title">Colomba Glassata Amarene</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2023/01/te-limone_nuda.jpg" class="card-img-top" alt="Colomba Primavera">
+      <div class="card-body">
+        <h5 class="card-title">Colomba Primavera</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2021/05/C31_esotica-nuda.jpg" class="card-img-top" alt="Colomba Esotica">
+      <div class="card-body">
+        <h5 class="card-title">Colomba Esotica</h5>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+    <div class="card">
+      <img src="https://www.brusa.com/wp-content/uploads/2023/01/ciocco-nuda.jpg" class="card-img-top" alt="Colomba Glassata Fichi e Cioccolato">
+      <div class="card-body">
+        <h5 class="card-title">Colomba Glassata Fichi e Cioccolato</h5>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="spacer"></div>
+    
+     <div class="d-flex justify-content-center">
+    <a class="button-custom" href="https://www.spacciobrusa.com/" role="button">Scopri tutta la linea!</a>
+    </div>
+    
+    <div class="spacer"></div>
+      
+      <section id="Contatti">
+    <div class="container">
+      <h2>Ti serve aiuto?</h2>
+      <p>Chiamaci o mandaci un messaggio su WhatsApp! <br>
+<b>Puoi fare un ordine telefonico, concordando tutti i dettagli con l’operatore o compilare questo form.</b></p>
+    
+<form>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="inputNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputNome" name="nome" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="inputCognome" class="form-label">Cognome</label>
+          <input type="text" class="form-control" id="inputCognome" name="cognome" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="inputTelefono" class="form-label">Numero di telefono</label>
+          <input type="tel" class="form-control" id="inputTelefono" name="telefono" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" name="email" required>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="inputRichiesta" class="form-label">Richiesta</label>
+        <textarea class="form-control" id="inputRichiesta" name="richiesta" rows="4" required></textarea>
+        <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Dichiaro di aver preso visione dell'informativa privacy, di essere consapevole del fatto che il Titolare tratterà dati personali a me riferibili al fine di erogare la richiesta. Obbligatorio.
+      </label>
+    </div>
+  </div>
+        <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+       Acconsento al trattamento dei miei dati personali per l'invio tramite e-mail di comunicazioni informative e promozionali.
+      </label>
+    </div>
+  </div>
+      </div>
+      <button type="submit" class="button-custom">Invia</button>
+</form>   
+    </div>
+  </section>
+      
+     <section class="contact">
+    <div class="container">
+      <h2>Contatti</h2>
+      <p>Per qualsiasi informazione o richiesta, non esitare a contattarci!</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Punto vendita diretto</h3>
+          <p>SPACCIO BRUSA</p>
+          <p>Indirizzo: Via Ferruccio Nazionale, 3, 13900 Biella BI</p>
+          <p>Telefono: +39 015 406054</p>
+          <p>Email: spaccio@brusa.com</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Orari di apertura</h3>
+          <p>Lunedì - Sabato: 9:00 - 18:30</p>
+          <p>Domenica: 9:30 - 13:00 / 14:30 - 18:30</p>
+        </div>
+       </div>
+    </div>
+  </section>
+ 
+    <footer class="footer">
+    <div>
+      <img src="https://www.brusa.com/wp-content/uploads/2020/11/logo_brusa_web_2x.png" alt="Logo" class="logo2">
+      
+      <div class="spacer"></div>
+      
+      <p>© BRUSA srl - P.IVA 00219460029</p>
+      
+       <div class="spacer"></div>
+      
+      <i class="fa-brands fa-facebook" style="font-size:25px"></i>
+  <i class="fa-brands fa-instagram" style="font-size:25px"></i>
+  <i class="fa-brands fa-linkedin" style="font-size:25px"></i>
+    </div>
+  </footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   
   </body>
+  
 </html>
-
-
