@@ -1,13 +1,11 @@
+/*Logo Brusa*/
 .logo {
   height: 125px;
   display: block;
   margin: 0 auto;
 }
 
-.spacer {
-  height: 30px;
-}
-
+/*Navbar*/
 .navbar-custom {
       background-color: #3d1f10;
     }
@@ -25,6 +23,21 @@
       background-color: white;
     }
 
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+/*Logo navbar*/
+.logo2 {
+  height: 50px;
+}
+
+/*Spazio*/
+.spacer {
+  height: 30px;
+}
+
+/*Bottoni Scopri tutta la linea!*/
 .button-custom {
   background-color: #3d1f10;
   color: white;
@@ -35,42 +48,10 @@
   text-decoration: none;
     }
 
+/*Sezione Contatti*/
 .contact {
-  background-color: #f8f8f8;
+  background-color: #f2f2f2;
   padding: 50px 0;
-}
-
-.footer {
-  background-color: #3d1f10;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.footer p {
-  margin: 0;
-  color: #fff;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.intestazione {
-  background-color: #3d1f10;
-  padding: 20px 0;
-  color: #fff;
-  font-family: Segoe Script;
-}
-
-.intestazione h1 {
-   font-size: 60px;
-}
-
-h1, h2, p {
-  text-align: center;
 }
 
 .contact p {
@@ -85,12 +66,90 @@ h1, h2, p {
   text-align: left;
 }
 
-.navbar-toggler-icon {
-  filter: invert(100%);
+/*Footer*/
+.footer {
+  background-color: #3d1f10;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.logo2 {
+.footer a {
+  color: #fff;
+}
+
+/*Container*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*Sezione Intestazione*/
+.intestazione {
+  background-color: #3d1f10;
+  padding: 20px 0;
+  color: #fff;
+  }
+
+/*h1, h2, p*/
+h1, h2, p {
+  text-align: center;
+}
+
+/*Scroll-top*/
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #eadbc8;
+  color: white;
+  width: 50px;
   height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 100%;
+  z-index: 10;
 }
 
+/*Dimensioni icona freccia*/
+#scroll-top i {
+  font-size: 20px;
+}
 
+/*Effetto mouse hover freccia*/
+#scroll-top:hover {
+  background-color: #dcc3a3;
+}
+
+/*Button Invia*/
+.button-custom-invia {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+    }
+
+/*Effetto mouse hover sulle card*/
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/*Corpo dopo intestazioni I Nostri Valori e Certificazioni*/
+.corpo {
+  background-color: #deb887;
+  ;
+}
+
+/*Piede del corpo delle intestazioni I Nostri Valori e Certificazioni*/
+.piedecorpo {
+  background-color: #f6e2bc;
+  text-align: center;
+  padding:70px 0;
+  color: #3d1f10;
+  ;
