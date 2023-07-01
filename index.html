@@ -1,38 +1,43 @@
+<!-- HTML5-->
 <!DOCTYPE html>
+<!-- Lingua italiana -->
 <html lang="it">
   
 <head>
+  <!-- Set di caratteri usati -->
   <meta charset="utf-8">
   
+  <!-- Visualizzazione responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <!-- Titolo-->
   <title>Sito web Brusa</title>
   
+  <!-- Viene referenziato il foglio di stile -->
   <link rel="stylesheet" href="style.css">
   
+  <!-- Viene referenziato Font Awesome per l'inserimento di icone -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
+  <!-- Viene referenziato Bootstrap come supporto per la parte responsive -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
   
+  <!-- Visualizzazione per schermi più piccoli -->
   <style>
 @media screen and (max-width: 1200px) {
-  
-    .intestazione {
-  background-color: #deb887;
-}
-  
   .intestazione h1 {
    font-size: 40px;
-}
-  
+}  
 }
   </style>
   
   <body>
     
-     <div style="position:fixed; bottom:10px; right:10px; width:50px; height:50px; border-radius: 100%; text-align: center; background-color:white; z-index:10"><a href="#Home"><i class="fa-solid fa-chevron-up" style="font-size:50px; color:#3d1f10"></i></a></div>
+    <!-- Scroll-top -->
+    <a href="#" id="scroll-top"><i class="fa-solid fa-arrow-up fa-beat"></i></a>
     
+    <!-- Navbar-->
   <nav id="Home" class="navbar navbar-expand-lg navbar-custom">
       <img src="https://www.brusa.com/wp-content/uploads/2020/11/logo_brusa_web_2x.png" alt="Logo" class="logo2">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -50,6 +55,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#INostriProdotti">I nostri prodotti</a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#Informazioni">Informazioni</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#Contatti">Contatti</a>
           </li>
@@ -57,6 +65,7 @@
       </div>
     </nav>
 
+    <!-- Sezione iniziale con immagine di sfondo e logo -->
     <section>
     <div style="background-image:url('https://laprovinciadibiella.it/wp-content/uploads/2016/03/Oggi-La-Nuova-Provincia-di-Biella-regala-i-canestrelli-56f634b0d9cf81.jpg'); background-size: cover;">
       
@@ -83,6 +92,7 @@
       </section>
     </div>
       
+      <!-- Intestazione I Nostri Valori referenziata a Chi Siamo -->
         <section id="ChiSiamo" class="intestazione">
     <div class="container">
       <h1>I Nostri Valori</h1>
@@ -90,7 +100,7 @@
     </div>
   </section>
   
-      <section>
+      <section class="corpo">
         <div class="container">
           <p><b>Brusa</b> è un’azienda a conduzione famigliare, attiva sin dal <b>1974</b>, nella produzione di <b>prodotti da forno</b>. <br> Nata nel Biellese, ha deciso che questo territorio e le sue persone erano perfette per sviluppare l’eccellenza delle specialità Piemontesi. </br> I nostri prodotti sono il frutto della tradizione locale e la testimonianza del nostro profondo legame con il territorio.</p> 
 <br>
@@ -101,17 +111,21 @@
 <p>I prodotti a <b>marchio Brusa</b> raggiungono il consumatore attraverso i molti clienti della distribuzione organizzata e
 del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presente anche sul canale <b>Horeca e Vending</b> e offre l’opportunità di acquistare anche online attraverso la propria piattaforma e-commerce <b>www.spacciobrusa.com</b>.</p>
 <br>
-<p>L’<b>export</b> è in espansione. <br> Attualmente l’azienda esporta i propri prodotti in Europa, Asia, Medioriente e America ed è registrata al <b>FDA</b> (Food and Drug Administration) per le esportazioni negli Stati Uniti. <br> L’azienda è certificata per la produzione di prodotti biologici, è certificata IFS e si sta attivando per essere <b>certificata BRC</b>, standard globali per la sicurezza degli alimenti.</p>
+<p>L’<b>export</b> è in espansione. <br> Attualmente l’azienda esporta i propri prodotti in Europa, Asia, Medioriente e America ed è registrata al <b>FDA</b> (Food and Drug Administration) per le esportazioni negli Stati Uniti. <br> L’azienda è certificata per la produzione di prodotti biologici, è certificata <b>IFS</b> e si sta attivando per essere <b>certificata BRC</b>, standard globali per la sicurezza degli alimenti.</p>
         </div>
       </section>
   
   <section>
-    <div style="background-color: #f6e2bc; text-align: center; padding:70px 0; color: #3d1f10;">
+    <div class="piedecorpo">
 <i class="fa-sharp fa-solid fa-tag" style="font-size:50px"></i>
+      
+       <div class="spacer"></div>
+      
 <p>Da sempre vicini ai nostri Clienti, siamo a disposizione per lo sviluppo di <b>personalizzazioni di confezioni</b> ed etichette, variazioni di grammatura e realizzazione di <b>Private Label</b>.</p>
 </div>
   </section>
   
+  <!-- Intestazione Certificazioni -->
   <section class="intestazione">
     <div class="container">
       <h1>Certificazioni</h1>
@@ -119,19 +133,23 @@ del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presen
     </div>
   </section>
   
-  <section>
+  <section class="corpo">
      <div class="container">
     <p>Brusa ha avviato un percorso di trasparenza della tracciabilità, attraverso la tecnologia block chain, inaugurando il primo GRISSINO 100% ITALIANO, tracciato end-to-end, dal seme allo scaffale. Primo in Italia e Europa. <br> <br> Il progetto sfrutta le potenzialità della piattaforma, in grado di garantire, in real time e in totale trasparenza, l’intera tracciabilità della filiera di produzione e della trasformazione, consentendo di certificarne la qualità e la provenienza e assicurando al tempo stesso la massima trasparenza per agricoltori, trasformatori, distributori, retailer e consumatori. Connettiamo così l’intero ecosistema della filiera alimentare, al fine di creare un sistema più intelligente e sicuro, in grado di valorizzare il territorio e la sostenibilità.<br> <br> <i>Da sempre, Brusa presta un’attenzione particolare alla qualità, selezionando materie prime da filiera controllata e certificata, per garantire prodotti dal sapore unico e inconfondibile.</i></p>
     </div>
   </section>
   
   <section>
-    <div style="background-color: #f6e2bc; text-align: center; padding:70px 0; color: #502816;">
+    <div class="piedecorpo">
 <i class="fa-sharp fa-solid fa-qrcode" style="font-size:50px"></i>
+      
+       <div class="spacer"></div>
+      
   <p>Stampando poi sulla confezione di ogni prodotto distribuito il <b>QR Code</b>, Brusa darà al consumatore finale la possibilità di conoscere la storia dei prodotti e tanto altro. <br><i>“La qualità è coscienza”</i>, uno slogan che sintetizza la visione del suo fondatore <b>Secondino Brusa</b>; una visione che esprime l’imprescindibile legame sociale ed economico che è presente con il territorio.</p>
 </div>
   </section>
   
+  <!-- Intestazione Pasticceria referenziata a I nostri prodotti -->
   <section id="INostriProdotti" class="intestazione">
     <div class="container">
       <h1>Pasticceria</h1>
@@ -164,7 +182,9 @@ del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presen
 
  <p>Con la pasticceria, Brusa vuole esaltare la lunga storia di tradizione piemontese, selezionando una linea di prodotti dove la cura della lavorazione e l’attenzione agli ingredienti di alta qualità, si esprimono ai massimi livelli. <br> Dai famosi Baci di Dama, ai tipici Torcetti biellesi esaltati dal burro di malga, al frollino di mais Paste di Meliga e tutta la pasticceria piemontese rappresentativa del nostro territorio, che nasce da ricette antichissime, conservando ancora il metodo di lavorazione artigianale. <br> La materia prima impiegata è di primissima qualità e proviene da filiera certificata di origine locale.</p>
     </section> 
-    
+   
+    <!-- Card biscotti -->
+    <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="col">
     <div class="card">
@@ -287,6 +307,7 @@ del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presen
     </div>
   </div>
 </div>
+    </div>
     
     
     <div class="spacer"></div>
@@ -352,6 +373,8 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
         </div>
       </section>
   
+  <!-- Card panettoni -->
+  <div class="container">
 <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="col">
     <div class="card">
@@ -402,6 +425,7 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
     </div>
   </div>
 </div>
+  </div>
     
     <div class="spacer"></div>
     
@@ -417,6 +441,8 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
         </div>
       </section>
     
+  <!-- Card colombe -->
+  <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="col">
     <div class="card">
@@ -467,6 +493,7 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
     </div>
   </div>
 </div>
+  </div>
     
     <div class="spacer"></div>
     
@@ -476,12 +503,14 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
     
     <div class="spacer"></div>
       
-      <section id="Contatti">
+  <!-- Sezione Informazioni referenziata a Informazioni -->
+      <section id="Informazioni">
     <div class="container">
       <h2>Ti serve aiuto?</h2>
       <p>Chiamaci o mandaci un messaggio su WhatsApp! <br>
 <b>Puoi fare un ordine telefonico, concordando tutti i dettagli con l’operatore o compilare questo form.</b></p>
     
+      <!-- Form di compilazione -->
 <form>
       <div class="row">
         <div class="col-md-6 mb-3">
@@ -523,12 +552,13 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
     </div>
   </div>
       </div>
-      <button type="submit" class="button-custom">Invia</button>
+      <button type="submit" class="button-custom-invia">Invia</button>
 </form>   
     </div>
   </section>
       
-     <section class="contact">
+  <!-- Sezione Contatti referenziata a Contatti  -->
+     <section id="Contatti" class="contact">
     <div class="container">
       <h2>Contatti</h2>
       <p>Per qualsiasi informazione o richiesta, non esitare a contattarci!</p>
@@ -549,6 +579,7 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
     </div>
   </section>
  
+  <!-- Footer -->
     <footer class="footer">
     <div>
       <img src="https://www.brusa.com/wp-content/uploads/2020/11/logo_brusa_web_2x.png" alt="Logo" class="logo2">
@@ -559,13 +590,32 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
       
        <div class="spacer"></div>
       
-      <i class="fa-brands fa-facebook" style="font-size:25px"></i>
-  <i class="fa-brands fa-instagram" style="font-size:25px"></i>
-  <i class="fa-brands fa-linkedin" style="font-size:25px"></i>
+      <a href="https://www.facebook.com/BrusaBiella/?locale=it_IT"><i class="fa-brands fa-facebook" style="font-size:25px"></i></a>
+  <a href="https://www.instagram.com/brusa.biscotti/"><i class="fa-brands fa-instagram" style="font-size:25px"></i></a>
+      <a href="https://it.linkedin.com/company/brusa-srl"><i class="fa-brands fa-linkedin" style="font-size:25px"></i></a>
     </div>
   </footer>
     
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+  
+  <!-- JS -->
+  <script>
+    // Funzione per scorrere la pagina verso l'alto
+function scrollToTop() { 
+ window.scrollTo(0,0);
+}
+
+window.addEventListener('scroll', function() {
+  var scrollButton = document.getElementById('scroll-top');
+  if (window.pageYOffset > 100) { // Mostra il bottone dopo aver scrollato di almeno 100 pixel
+    scrollButton.style.display = 'block';
+  } else {
+    scrollButton.style.display = 'none';
+  }
+});
+  </script>
   
   </body>
   
