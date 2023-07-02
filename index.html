@@ -23,15 +23,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
   
-  <!-- Visualizzazione per schermi più piccoli -->
-  <style>
-@media screen and (max-width: 1200px) {
-  .intestazione h1 {
-   font-size: 40px;
-}  
-}
-  </style>
-  
   <body>
     
     <!-- Scroll-top -->
@@ -39,7 +30,7 @@
     
     <!-- Navbar-->
   <nav id="Home" class="navbar navbar-expand-lg navbar-custom">
-      <img src="images/logo_brusa_web_2x.png" alt="Logo" class="logo2">
+      <img src="https://www.brusa.com/wp-content/uploads/2020/11/logo_brusa_web_2x.png" alt="Logo" class="logo2">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -67,7 +58,7 @@
 
     <!-- Sezione iniziale con immagine di sfondo e logo -->
     <section>
-    <div style="background-image:url('https://laprovinciadibiella.it/wp-content/uploads/2016/03/Oggi-La-Nuova-Provincia-di-Biella-regala-i-canestrelli-56f634b0d9cf81.jpg'); background-size: cover;">
+    <div class="imgsfondo">
       
       <div class="spacer"></div>
     
@@ -117,7 +108,7 @@ del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presen
   
   <section>
     <div class="piedecorpo">
-<i class="fa-sharp fa-solid fa-tag" style="font-size:50px"></i>
+<i class="fa-sharp fa-solid fa-tag icona"></i>
       
        <div class="spacer"></div>
       
@@ -141,7 +132,7 @@ del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presen
   
   <section>
     <div class="piedecorpo">
-<i class="fa-sharp fa-solid fa-qrcode" style="font-size:50px"></i>
+<i class="fa-sharp fa-solid fa-qrcode icona"></i>
       
        <div class="spacer"></div>
       
@@ -162,11 +153,11 @@ del dettaglio tradizionale, in Italia e all’estero. <br> L’azienda è presen
        <div class="row">
         <div class="col-md-6">
        <h2>Canestrej di Biella</h2>
-     <p style="text-align:justify">CROCCANTI CIALDE RIPIENE DI FINISSIMO CIOCCOLATO FONDENTE <br> <br> Traggono origine dalle rustiche miasce, che pare risalgano ai tempi biblici e fossero apprezzate pure dai Romani. <br> Nell’antica ricetta di queste cialde si mescolavano farina bianca e fioretto (farina di mais setacciata fine), zucchero, burro morbido e la buccia grattugiata di un limone. <br> Incorporando il latte, si otteneva un composto abbastanza sodo che veniva cotto fra due piastre di pietra roventi, ora sostituite da quelle in acciaio. <br> Furono le famiglie nobili ad iniziare ad incidere sulle piastre lo stemma del loro casato così che apparisse sulle miasce cotte. <br> Nell’antico manoscritto del 1805, custodito presso la biblioteca reale di Torino, “Notice sur l’arrondissement de Biella, departement de la Sesia”, i Canestrej vengono citati come prodotto tipico Biellese. <br> I Canestrej sono entrati a far parte del gruppo di prodotti agroalimentari tradizionali piemontesi, tutelati e valorizzati dalla Regione Piemonte. <br> Brusa conserva i metodi di lavorazione artigianali ed arricchisce le sue croccanti cialde con un cioccolato finissimo di prima qualità.</p>
+     <p class="pcanestrelli">CROCCANTI CIALDE RIPIENE DI FINISSIMO CIOCCOLATO FONDENTE <br> <br> Traggono origine dalle rustiche miasce, che pare risalgano ai tempi biblici e fossero apprezzate pure dai Romani. <br> Nell’antica ricetta di queste cialde si mescolavano farina bianca e fioretto (farina di mais setacciata fine), zucchero, burro morbido e la buccia grattugiata di un limone. <br> Incorporando il latte, si otteneva un composto abbastanza sodo che veniva cotto fra due piastre di pietra roventi, ora sostituite da quelle in acciaio. <br> Furono le famiglie nobili ad iniziare ad incidere sulle piastre lo stemma del loro casato così che apparisse sulle miasce cotte. <br> Nell’antico manoscritto del 1805, custodito presso la biblioteca reale di Torino, “Notice sur l’arrondissement de Biella, departement de la Sesia”, i Canestrej vengono citati come prodotto tipico Biellese. <br> I Canestrej sono entrati a far parte del gruppo di prodotti agroalimentari tradizionali piemontesi, tutelati e valorizzati dalla Regione Piemonte. <br> Brusa conserva i metodi di lavorazione artigianali ed arricchisce le sue croccanti cialde con un cioccolato finissimo di prima qualità.</p>
          </div>
          
          <div class="col-md-6">
-           <img src="https://www.spacciobrusa.com/wp-content/uploads/2020/12/CANESTRELLI.jpg" alt= "Canestrelli" style="height:400px;">
+           <img src="https://www.spacciobrusa.com/wp-content/uploads/2020/12/CANESTRELLI.jpg" alt= "Canestrelli" class="imgcanestrelli">
          </div>
        
          <div class="spacer"></div>
@@ -590,9 +581,9 @@ Grazie alle 5 lievitazioni, il prodotto risulta più digeribile.</p>
       
        <div class="spacer"></div>
       
-      <a href="https://www.facebook.com/BrusaBiella/?locale=it_IT"><i class="fa-brands fa-facebook" style="font-size:25px"></i></a>
-  <a href="https://www.instagram.com/brusa.biscotti/"><i class="fa-brands fa-instagram" style="font-size:25px"></i></a>
-      <a href="https://it.linkedin.com/company/brusa-srl"><i class="fa-brands fa-linkedin" style="font-size:25px"></i></a>
+      <a href="https://www.facebook.com/BrusaBiella/?locale=it_IT"><i class="fa-brands fa-facebook iconafooter"></i></a>
+  <a href="https://www.instagram.com/brusa.biscotti/"><i class="fa-brands fa-instagram iconafooter"></i></a>
+      <a href="https://it.linkedin.com/company/brusa-srl"><i class="fa-brands fa-linkedin iconafooter"></i></a>
     </div>
   </footer>
     
