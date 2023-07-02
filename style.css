@@ -143,7 +143,6 @@ h1, h2, p {
 /*Corpo dopo intestazioni I Nostri Valori e Certificazioni*/
 .corpo {
   background-color: #deb887;
-  ;
 }
 
 /*Piede del corpo delle intestazioni I Nostri Valori e Certificazioni*/
@@ -152,4 +151,38 @@ h1, h2, p {
   text-align: center;
   padding:70px 0;
   color: #3d1f10;
-  ;
+  }
+
+  /*-- Visualizzazione per schermi più piccoli */
+@media screen and (max-width: 1200px) {
+  .intestazione h1 {
+   font-size: 40px;
+}  
+}
+
+/*-- Immagine sfondo parte iniziale */
+.imgsfondo {
+  background-image:url('https://laprovinciadibiella.it/wp-content/uploads/2016/03/Oggi-La-Nuova-Provincia-di-Biella-regala-i-canestrelli-56f634b0d9cf81.jpg'); 
+  background-size: cover;
+  }
+
+/*-- Icone piede corpo */
+.icona {
+  font-size:50px;
+  }
+
+/*-- Icone footer */
+.iconafooter {
+  font-size:25px;
+  }
+
+/*-- Immagine canestrelli */
+.imgcanestrelli {
+  width: 100%;
+  max-width: 400px;
+  }
+
+/*-- Paragrafo canestrelli */
+.pcanestrelli {
+  text-align: justify;
+  }
