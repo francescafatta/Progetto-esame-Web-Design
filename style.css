@@ -162,7 +162,7 @@ h1, h2, p {
 
 /*-- Immagine sfondo parte iniziale */
 .imgsfondo {
-  background-image:url('https://laprovinciadibiella.it/wp-content/uploads/2016/03/Oggi-La-Nuova-Provincia-di-Biella-regala-i-canestrelli-56f634b0d9cf81.jpg'); 
+  background-image: url("Images/brusa-foto-produttori.webp"); 
   background-size: cover;
   }
 
