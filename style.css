@@ -186,3 +186,15 @@ h1, h2, p {
 .pcanestrelli {
   text-align: justify;
   }
+
+.riquadro {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 60px;
+  text-align: center;
+  opacity: 80%;
+  width: 80%;
+  margin: 0 auto;
+  }
