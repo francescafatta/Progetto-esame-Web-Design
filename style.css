@@ -164,6 +164,7 @@ h1, h2, p {
 .imgsfondo {
   background-image: url("Images/brusa-foto-produttori.webp"); 
   background-size: cover;
+  opacity: 90%;
   }
 
 /*-- Icone piede corpo */
