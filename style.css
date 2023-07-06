@@ -186,3 +186,8 @@ h1, h2, p {
 .pcanestrelli {
   text-align: justify;
   }
+
+/*-- Testo iniziale */
+.paragrafo {
+  color: white;
+  }
