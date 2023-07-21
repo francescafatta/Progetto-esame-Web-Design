@@ -4,6 +4,10 @@ _Corso web design 1 - Matteo Baccan_
 
 _Accademia di Belle Arti - ACME Novara_
 
+_A.A. 2022/2023_
+
+_Matricola n.794_
+
 ## Sito web pasticceria "Brusa"
 
 Realizzazione di un sito web mono-pagina per l'azienda "Brusa".
